@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.faixa-amarela {
+    background-color: #FFCC00;
+    width: 1280px;
+    height: 50px; /* ✅ corrigido */
+    
+}
+
+.banner{
+    background:linear-gradient(#0B5C00, #419C35); 
+    height: 259px;
+    width: 1280px;
+
+    display: flex;
+    flex-dirtection: row;
+    justify-content: space-between;
+}
+
+.seta{
+    width: 46px;
+    height: 35;
+     visibility: hidden;
+}
+
+.zilhos{
+    align-self: center; 
+}
+
+.zilhos .zilhos-subtitulo{
+    font-style: bold;
+    color: #FFCC00;
+    font-family: "Kumbh Sans", sans-serif;
+
+    
+  
+}
+
+.imagem-menu-hamburguer{
+    width: 40px;
+    height:30px;
+
+     margin-left: 22px;
+    mergin-right: 1218px
+  
+    
+}
+
+
+
+
+.cards{
+    display:flex;
+    flex-dirtection: row;
+    gap: 87px;
+
+    justify-content: center;
+    margin-top: 52px;
+
+    border-radius:25px;
+
+}
+
+.img-fixa{
+    width: 280px;   /* largura fixa */
+    height: auto;   /* mantém proporção */
+    display: block; /* remove espaçamento extra */
+    margin: 0 auto; /* centraliza dentro do card */  
+    margin-top:16px;
+    
+}
+
+.imagens-links{
+    margin-top: 10px;
+
+}
+
+.card-text{
+    font-family:    font-family: "Kumbh Sans", sans-serif;
+    text-align:center
+
+}
+
+.card-quemSomos{
+
+    display:flex;
+    margin: 120px 83px 0 83px;
+    flex-direction: column;
+    border-radius:20px;
+}
+
+.quemSomos{
+ text-align: center;
+ border-radius: 25px;
+font-size:20px;
+margin-top:17px;
+}
+
+.img-nosssa{
+    width: 1040px;
+    margin-right:37px;
+    margin-left:37px;
+
+}
+
+.card-text-quemSomos{
+    font-family:    font-family: "Kumbh Sans", sans-serif;
+    text-align:center;
+    font-size: 20px;
+    margin-top: 47px; 
+}
+
+.card-preços{
+    width:1115px;
+    height:428px;
+}
+
+.plano-gratuito{
+    font-size:50px;
+    text-align:center;
+    font-style: bold;
+    margin-top:29px;
+}
+
+.card-text-planos{
+    margin-top:34px;
+    margin-left: 62px;
+    font-size:20px;
+    font-style:20px
+}
+
+.btn {
+    margin-top: 32px;
+    margin-bottom:48px;
+
+
+    display: inline-block;      
+    padding: 12px 24px;          
+    background-color: #FFCC00;   
+    color: #0B5C00 !important;             
+    text-decoration: none;       
+    font-weight: bold;
+    border-radius: 20px;    
+    text-align:center;      
+}
+
+
+.card-preços-abaixo{
+    display:flex;
+    flex-direction: row;
+    gap:24px;
+
+    margin-top: 19px
+}
