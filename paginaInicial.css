@@ -9,15 +9,15 @@
 
 .faixa-amarela {
     background-color: #FFCC00;
-    width: 1280px;
-    height: 50px; /* ✅ corrigido */
+    width: 1265px;
+    height: 50px; 
     
 }
 
 .banner{
     background:linear-gradient(#0B5C00, #419C35); 
     height: 259px;
-    width: 1280px;
+    width: 1265px;
 
     display: flex;
     flex-dirtection: row;
@@ -120,6 +120,13 @@ margin-top:17px;
 .card-preços{
     width:1115px;
     height:428px;
+
+    background: #9FD997;
+    color: #0B5C00;
+    border-radius: 25px;    
+    margin-left: 82px;
+    margin-right: 82px;
+
 }
 
 .plano-gratuito{
@@ -128,34 +135,77 @@ margin-top:17px;
     font-style: bold;
     margin-top:29px;
 }
+.plano-gratuito{
+font-size:25px;
+}
 
 .card-text-planos{
     margin-top:34px;
     margin-left: 62px;
-    font-size:20px;
-    font-style:20px
+    font-size:15px;
 }
 
-.btn {
-    margin-top: 32px;
-    margin-bottom:48px;
+.btn-planos {
+ width:386px;
+ height: 54px;
+    
+ border-radius: 20px; 
+ background: #FFCC00;
+ color: #0B5C00; 
+ text-align: center;
+ text-decoration: none;
+ 
+
+ 
 
 
-    display: inline-block;      
-    padding: 12px 24px;          
-    background-color: #FFCC00;   
-    color: #0B5C00 !important;             
-    text-decoration: none;       
-    font-weight: bold;
-    border-radius: 20px;    
-    text-align:center;      
 }
 
 
 .card-preços-abaixo{
     display:flex;
     flex-direction: row;
-    gap:24px;
 
-    margin-top: 19px
+    gap:2.5vh;
+    margin-top: 1.9vh;
+}
+.card-preços-abaixo{
+
+}
+
+.card-preços-intermediarios-primeiro{
+    background: #419C35;
+    color:#FFCC00;
+
+    width: 315px;
+    height: 822px;
+
+    margin-left: 82px;
+   border-rafius: 25px;
+    
+}
+
+.footer{
+    background: #419C35;
+    color: #FFCC00;
+    height:128vh ;
+    weight: 700;
+}
+
+.links-redesSocias{
+    width:4.8vh;
+    height:4.8vh;
+
+    display: flex;
+    flex-direction: row;
+    gap:3.2vh;
+}
+
+.links-paginas{
+color: #FFCC00;
+text-decoration:underline;
+
+display:flex;
+flex-direction: row;
+gap: 265px;
 }
