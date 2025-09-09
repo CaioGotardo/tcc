@@ -168,21 +168,55 @@ font-size:25px;
 
     gap:2.5vh;
     margin-top: 1.9vh;
+    text-align:center;
+
+    justify-content: center;
 }
-.card-preços-abaixo{
+
+.card-preços-abaixo .btn{
+background: #FFCC00;
 
 }
+
 
 .card-preços-intermediarios-primeiro{
     background: #419C35;
     color:#FFCC00;
 
-    width: 315px;
-    height: 822px;
+    width: 19.688rem;
+    height: 51.375rem;
 
-    margin-left: 82px;
-   border-rafius: 25px;
+    border-radius: 1.563rem;
+
+    margin-left: 0.32rem;
+   border-rafius: 1.563rem;
     
+}
+
+.card-preços-intermediarios-segundo{
+width: 27.438rem;
+height: 51.375rem;
+
+background: #0B5C00;
+color: #FFCC00;
+border-radius: 1.563rem;
+
+margin-left: 1.5rem;
+margin-right:1.563rem;
+
+
+}
+
+.card-preços-intermediarios-terceiro{
+     background: #419C35;
+    color:#FFCC00;
+
+    width: 19.688rem;
+    height: 51.375rem;
+
+
+    margin-left: 0.32rem;
+   border-radius: 1.563rem;
 }
 
 .footer{
